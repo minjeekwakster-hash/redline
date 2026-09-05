@@ -1,0 +1,54 @@
+# dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# build output
+.next/
+out/
+build/
+dist/
+
+# environment & secrets
+.env
+.env.*
+!.env.example
+
+# credentials & keys
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# debug & logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# testing
+coverage/
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# vercel
+.vercel
+
+# turbopack
+.turbo
+
+# misc
+*.local
